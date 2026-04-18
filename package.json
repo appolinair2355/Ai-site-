@@ -1,12 +1,17 @@
 {
   "name": "ollama-assistant",
   "version": "1.0.0",
+  "description": "Assistant IA avec Ollama",
   "main": "app.js",
+  "license": "MIT",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
